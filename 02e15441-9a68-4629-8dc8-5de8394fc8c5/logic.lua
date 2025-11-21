@@ -65,6 +65,8 @@ msfs_variable_subscribe(eng2_fire[1], eng2_fire[2],
 						fire_test[1], fire_test[2],
 						light_test[1], light_test[2], setEngineEmergencies)
 
+setEngineEmergencies(false, false, false, false)
+
 --=============================================================================================
 --=========================		switch logic	===================================================
 --=============================================================================================
