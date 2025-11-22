@@ -104,7 +104,7 @@ function changePosition(position, direction)
 end
 
 --touch implementation
-MasterPosition = switch_add(nil, nil, 165, 148, 161, 322, changePosition)
+MasterPosition = switch_add(nil, nil, 165, 148, 161, 322, 'VERTICAL', changePosition)
 switch_set_position (MasterPosition, 0)
 
 changeSwitch(true)
